@@ -29,7 +29,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public TbUser getUserByToken(HttpServletRequest request, HttpServletResponse response) {
         try {
-            //从cookie中去token
+            //从cookie中取token
             String token = CookieUtils.getCookieValue(request, "TT_TOKEN");
             //判断token是否有值
             if (StringUtils.isBlank(token)){
@@ -42,7 +42,7 @@ public class UserServiceImpl implements UserService {
             if (result.getStatus() != 200){
                 return null;
             }
-            //去用户对象
+            //取用户对象
             result = TaotaoResult.formatToPojo(json, TbUser.class);
             TbUser user = (TbUser) result.getData();
             return user;

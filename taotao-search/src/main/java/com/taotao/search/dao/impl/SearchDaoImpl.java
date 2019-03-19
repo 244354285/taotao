@@ -42,7 +42,7 @@ public class SearchDaoImpl implements SearchDao {
             List<String> list = highlighting.get(document.get("id")).get("item_title");
             String itemTitle = "";
             if (list != null && list.size() > 0){
-                //去高亮后的结果
+                //获取高亮后的结果
                 itemTitle = list.get(0);
             } else {
                 itemTitle = (String) document.get("item_title");

@@ -32,7 +32,7 @@ public class SearchServiceImpl implements SearchService {
         //设置高亮
         query.setHighlight(true);
         query.addHighlightField("item_title");
-        query.setHighlightSimplePre("<font class=\"skcolor_ljg\">");
+        query.setHighlightSimplePre("<font class='skcolor_ljg'>");
         query.setHighlightSimplePost("</font>");
         //执行查询
         SearchResult searchResult = searchDao.search(query);

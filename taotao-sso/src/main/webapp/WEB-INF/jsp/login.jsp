@@ -20,9 +20,11 @@
 <form id="formlogin" method="post" onsubmit="return false;">
     <div class=" w1" id="entry">
         <div class="mc " id="bgDiv">
-            <div id="entry-bg" clstag="passport|keycount|login|02" style="width: 511px; height: 455px; position: absolute; left: -44px; top: -44px; background: url(/images/544a11d3Na5a3d566.png) 0px 0px no-repeat;">
+            <div id="entry-bg" clstag="passport|keycount|login|02"
+                 style="width: 511px; height: 455px; position: absolute; left: -44px;
+                 top: -44px; background: url(/images/ad.png) 0px 0px no-repeat;">
 			</div>
-            <div class="form ">
+            <div class="form">
                 <div class="item fore1">
                     <span>用户名</span>
                     <div class="item-ifo">
@@ -50,7 +52,8 @@
                     </div>
                 </div>
                 <div class="item login-btn2013">
-                    <input type="button" class="btn-img btn-entry" id="loginsubmit" value="登录" tabindex="8" clstag="passport|keycount|login|06"/>
+                    <input type="button" class="btn-img btn-entry" id="loginsubmit" value="登录"
+                           tabindex="8" clstag="passport|keycount|login|06"/>
                 </div>
             </div>
         </div>
