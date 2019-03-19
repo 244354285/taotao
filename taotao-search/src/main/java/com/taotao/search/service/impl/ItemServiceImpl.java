@@ -5,10 +5,12 @@ import com.taotao.search.mapper.ItemMapper;
 import com.taotao.search.pojo.SearchItem;
 import com.taotao.search.service.ItemService;
 import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -25,6 +27,8 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public TaotaoResult importItem() throws Exception{
+        //清空索引库
+        deleteAll();
         //查询数据库获得商品列表
         List<SearchItem> itemList = itemMapper.getItemList();
         //遍历列表
@@ -45,5 +49,19 @@ public class ItemServiceImpl implements ItemService {
         //提交
         solrServer.commit();
         return TaotaoResult.ok();
+    }
+
+    /**
+     * 清空索引库
+     */
+    public void deleteAll(){
+        try {
+            solrServer.deleteByQuery("*:*");
+            solrServer.commit();
+        } catch (SolrServerException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
