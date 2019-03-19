@@ -27,8 +27,6 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public TaotaoResult importItem() throws Exception{
-        //清空索引库
-        deleteAll();
         //查询数据库获得商品列表
         List<SearchItem> itemList = itemMapper.getItemList();
         //遍历列表
@@ -51,17 +49,4 @@ public class ItemServiceImpl implements ItemService {
         return TaotaoResult.ok();
     }
 
-    /**
-     * 清空索引库
-     */
-    public void deleteAll(){
-        try {
-            solrServer.deleteByQuery("*:*");
-            solrServer.commit();
-        } catch (SolrServerException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 }
