@@ -38,6 +38,7 @@ public class ItemServiceImpl implements ItemService {
      * @param itemId 商品主键
      * @return item的pojo
      */
+    @Override
     public TbItem getItemById(Long itemId) {
         return itemMapper.selectByPrimaryKey(itemId);
     }
@@ -48,6 +49,7 @@ public class ItemServiceImpl implements ItemService {
      * @param rows
      * @return
      */
+    @Override
     public EasyUIDataGridResult getItemList(int page, int rows) {
         //分页处理
         PageHelper.startPage(page,rows);
@@ -69,6 +71,7 @@ public class ItemServiceImpl implements ItemService {
      * @param desc
      * @return
      */
+    @Override
     public TaotaoResult createItem(TbItem item, String desc, String itemParam) {
         //生成商品id
         long itemId = IDUtils.getItemId();
@@ -106,6 +109,7 @@ public class ItemServiceImpl implements ItemService {
      * @param itemId
      * @return
      */
+    @Override
     @SuppressWarnings("all")
     public String getItemParamHtml(Long itemId) {
         //根据id查询规格参数
@@ -150,6 +154,7 @@ public class ItemServiceImpl implements ItemService {
      * @param itemId 商品id
      * @return
      */
+    @Override
     public TaotaoResult deleteItem(long[] itemId) {
         try {
             for (int i=0; i<itemId.length; i++){

@@ -16,4 +16,6 @@ public interface ItemParamService {
     TaotaoResult getItemParamByCid(long cid);
 
     TaotaoResult getItemParamById(Long itemId);
+
+    TaotaoResult deleteItemParams(long[] itemParamIds);
 }

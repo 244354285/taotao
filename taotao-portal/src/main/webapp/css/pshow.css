@@ -5355,7 +5355,7 @@ a.d-offline {
 }
 
 .Ptable th {
-	background: #EEF7FE;
+	background: #F7F7F7;
 	padding: 5px;
 	font-size: 12px
 }
@@ -5367,7 +5367,7 @@ a.d-offline {
 }
 
 .Ptable .tdTitle {
-	background: none repeat scroll 0 0 #F5FAFE;
+	background: none repeat scroll 0 0 #F7F7F7;
 	text-align: right;
 	width: 110px
 }

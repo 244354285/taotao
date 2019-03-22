@@ -35,6 +35,7 @@ public class ItemParamServiceImpl implements ItemParamService {
      * 获取商品规格
      * @return
      */
+    @Override
     public EasyUIDataGridResult getItemParamList(int page, int rows) {
         //分页处理
         PageHelper.startPage(page,rows);
@@ -49,6 +50,7 @@ public class ItemParamServiceImpl implements ItemParamService {
         return result;
     }
 
+    @Override
     public TaotaoResult insertItemParam(Long cid, String paramData) {
         TbItemParam itemParam = new TbItemParam();
         itemParam.setItemCatId(cid);
@@ -59,6 +61,7 @@ public class ItemParamServiceImpl implements ItemParamService {
         return TaotaoResult.ok();
     }
 
+    @Override
     public TaotaoResult getItemParamByCid(long cid) {
         TbItemParamExample example = new TbItemParamExample();
         Criteria criteria = example.createCriteria();
@@ -92,4 +95,23 @@ public class ItemParamServiceImpl implements ItemParamService {
             return null;
         }
     }
+
+    /**
+     * 删除商品规格
+     */
+    @Override
+    public TaotaoResult deleteItemParams(long[] itemParamId) {
+		List<TbItemParam> list = new ArrayList<>();
+		for(int i=0;i<itemParamId.length;i++){
+			TbItemParam itemParam = itemParamMapper.selectByPrimaryKey(itemParamId[i]);
+			list.add(itemParam);
+		}
+		for(TbItemParam itemParam : list){
+			itemParamMapper.deleteByPrimaryKey(itemParam.getId());
+		}
+        return TaotaoResult.ok();
+    }
+
+
+
 }

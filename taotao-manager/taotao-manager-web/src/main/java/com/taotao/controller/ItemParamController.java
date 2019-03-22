@@ -5,10 +5,7 @@ import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.service.ItemParamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/item/param")
@@ -45,4 +42,19 @@ public class ItemParamController {
         TaotaoResult result = itemParamService.getItemParamById(itemId);
         return result;
     }
+
+
+    @RequestMapping(value = "/delete",method = RequestMethod.POST)
+    @ResponseBody
+    public TaotaoResult deleteItemParam(String[] ids){
+        long[] itemParamIds = new long[ids.length];
+        for (int i=0; i<ids.length; i++){
+            itemParamIds[i]= Long.parseLong(ids[i]);
+        }
+        TaotaoResult result = itemParamService.deleteItemParams(itemParamIds);
+        return result;
+    }
+
+
+
 }

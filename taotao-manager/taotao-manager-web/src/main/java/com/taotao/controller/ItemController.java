@@ -29,6 +29,8 @@ public class ItemController {
     private String SEARCH_BASE_URL;
     @Value("${SEARCH_ITEM_SYNC_URL}")
     private String SEARCH_ITEM_SYNC_URL;
+    @Value("${SEARCH_ITEM_SYNC_DELETE_URL}")
+    private String SEARCH_ITEM_SYNC_DELETE_URL;
 
     //注入itemService
     @Autowired
@@ -163,6 +165,10 @@ public class ItemController {
      */
     public void syncItemToSolr(){
         HttpClientUtil.doGet(SEARCH_BASE_URL+SEARCH_ITEM_SYNC_URL);
+    }
+
+    public void deleteItemToSolr(){
+        HttpClientUtil.doGet(SEARCH_BASE_URL+SEARCH_ITEM_SYNC_DELETE_URL);
     }
 
 }

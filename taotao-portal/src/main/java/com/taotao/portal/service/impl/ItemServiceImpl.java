@@ -62,6 +62,7 @@ public class ItemServiceImpl implements ItemService {
         return null;
     }
 
+    @Override
     @SuppressWarnings("all")
     public String getItemParamById(Long itemId) {
         try {
@@ -76,7 +77,7 @@ public class ItemServiceImpl implements ItemService {
             List<Map> mapList = JsonUtils.jsonToList(paramJson,Map.class);
             //遍历list生成的html
             StringBuffer sb = new StringBuffer();
-            sb.append("<table cellpadding=\"0\" cellspacing=\"1\" width=\"100%\" border=\"1\" class=\"Ptable\">\n");
+            sb.append("<table cellpadding=\"0\" cellspacing=\"1\" width=\"100%\" border=\"0\" class=\"Ptable\">\n");
             sb.append(" <tbody>\n");
             for(Map m1:mapList) {
                 sb.append("<tr>\n");

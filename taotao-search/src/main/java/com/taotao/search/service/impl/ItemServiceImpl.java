@@ -6,6 +6,7 @@ import com.taotao.search.pojo.SearchItem;
 import com.taotao.search.service.ItemService;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.client.solrj.response.UpdateResponse;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -47,6 +48,12 @@ public class ItemServiceImpl implements ItemService {
         //提交
         solrServer.commit();
         return TaotaoResult.ok();
+    }
+
+    @Override
+    public void deleteAll() throws Exception {
+        solrServer.deleteByQuery("*:*");
+        solrServer.commit();
     }
 
 }
