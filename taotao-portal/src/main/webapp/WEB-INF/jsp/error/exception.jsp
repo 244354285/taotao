@@ -100,9 +100,9 @@
 			<ul class="m">
 				<li class="fore1">您可以：稍后再试或联系客服400-000-0000。
 				</li>
-				<li class="fore2">返回<a href="/" target="_blank">淘淘首页</a></li>
+				<li class="fore2">返回<a href="/" target="_self">淘淘首页</a></li>
 				<li class="fore3">错误消息</li>
- 				<li class="fore4">${message }</li>
+ 				<li class="fore4">${ message }</li>
 			</ul>
 		</div>
 	</div>
