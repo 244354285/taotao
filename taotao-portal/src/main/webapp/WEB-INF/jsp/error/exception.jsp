@@ -17,8 +17,7 @@
 <title>出错了 -淘淘商城</title>
 <!--结算页面样式-->
 <link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
-<link type="text/css" rel="stylesheet" href="/css/order-commons.css"
-	source="widget" />
+<link type="text/css" rel="stylesheet" href="/css/order-commons.css" source="widget" />
 <script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
 <script type="text/javascript" src="/js/base.js"></script>
 <script type="text/javascript" src="/js/order.common.js"></script>
@@ -99,7 +98,7 @@
 </style>
 			<span class="txt">糟了...系统出错了...</span>
 			<ul class="m">
-				<li class="fore1">您可以：稍后再试或联系客服400-8888-9999。
+				<li class="fore1">您可以：稍后再试或联系客服400-000-0000。
 				</li>
 				<li class="fore2">返回<a href="/" target="_blank">淘淘首页</a></li>
 				<li class="fore3">错误消息</li>

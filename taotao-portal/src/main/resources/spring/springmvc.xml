@@ -35,4 +35,14 @@
         </mvc:interceptor>
     </mvc:interceptors>
 
+    <!--配置异常处理器-->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionAttribute" value="message"/>
+        <property name="exceptionMappings">
+            <props>
+                <prop key="java.lang.Exception">error/exception</prop>
+            </props>
+        </property>
+    </bean>
+
 </beans>

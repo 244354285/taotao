@@ -99,19 +99,6 @@
         </div>
         <div class="ui-ceilinglamp-1" style="width: 988px; height: 49px;"><div class="cart-dibu ui-ceilinglamp-current" style="width: 988px; height: 49px;">
           <div class="control fdibu fdibucurrent">
-              <span class="column t-checkbox form">
-                  <input data-cart="toggle-cb" name="toggle-checkboxes" id="toggle-checkboxes_down" type="checkbox" checked="" value="" class="jdcheckbox">
-                  <label for="toggle-checkboxes_down">
-                          全选
-                  </label>
-              </span>
-              <span class="delete">
-                  <b>
-                  </b>
-                  <a href="javascript:void(0);" clstag="clickcart|keycount|xincart|clearcartlink" id="remove-batch">
-                          删除选中的商品
-                  </a>
-              </span>
               <span class="shopping">
                   <b>
                   </b>

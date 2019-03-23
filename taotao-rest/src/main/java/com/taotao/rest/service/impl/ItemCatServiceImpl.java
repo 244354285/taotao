@@ -1,11 +1,9 @@
 package com.taotao.rest.service.impl;
 
-import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.common.utils.JsonUtils;
 import com.taotao.mapper.TbItemCatMapper;
 import com.taotao.pojo.TbItemCat;
 import com.taotao.pojo.TbItemCatExample;
-import com.taotao.pojo.TbItemParamItem;
 import com.taotao.rest.component.JedisClient;
 import com.taotao.rest.pojo.CatNode;
 import com.taotao.rest.pojo.ItemCatResult;
@@ -79,9 +77,9 @@ public class ItemCatServiceImpl implements ItemCatService {
             //如果时父节点
             if (itemCat.getIsParent()){
                 CatNode node = new CatNode();
-                node.setUrl("/products/"+itemCat.getId()+"html");
+                node.setUrl("/products/"+itemCat.getId());
                 if (itemCat.getParentId() == 0){
-                    node.setName("<a href='/products/"+itemCat.getId()+".html'>"+itemCat.getName()+"</a>");
+                    node.setName("<a href='/products/"+itemCat.getId()+"'>"+itemCat.getName()+"</a>");
                     //第一级节点不能超过14个元素，index为计数器
                     index++;
                 }else{
@@ -92,7 +90,7 @@ public class ItemCatServiceImpl implements ItemCatService {
                 resultList.add(node);
             }else {
                 //如果是叶子节点
-                String item = "/products/"+itemCat.getId()+".html|"+itemCat.getName()+"";
+                String item = "/products/"+itemCat.getId()+"|"+itemCat.getName()+"";
                 resultList.add(item);
             }
         }
