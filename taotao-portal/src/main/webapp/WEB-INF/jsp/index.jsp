@@ -211,7 +211,7 @@ pageConfig.DATA_MScroll =[
 <div id="jdnews" class="m m1" >
 <div class="mt">
 <h2>淘淘快报</h2>
-<div class="extra" clstag="homepage|keycount|home2013|11a"><a href="http://www.jd.com/moreSubject.aspx" target="_blank">更多快报&nbsp;&gt;</a></div>
+<div class="extra" clstag="homepage|keycount|home2013|11a"><a href="javascript:;" target="_blank">更多快报&nbsp;&gt;</a></div>
 </div>
 <div class="mc">
 	<ul>
@@ -227,10 +227,10 @@ pageConfig.DATA_MScroll =[
 <div data-widget="tabs" class="m _520_a_lifeandjourney_1" id="virtuals-2014">
 <div class="mt">
 <ul class="fore1 lh">
-<li class="fore1 abtest_huafei" data-iframe="javascript:;" clstag = "homepage|keycount|home2013|12a"><a target="_blank" href="http://chongzhi.jd.com/"><s></s>话费<i></i></a></li>
-<li class="fore2 abtest_lvxing" data-iframe="javascript:;" clstag = "homepage|keycount|home2013|12b"><a target="_blank" href="http://trip.jd.com/"><s></s>旅行<i></i></a></li>
-<li class="fore3 abtest_caipiao" data-iframe="javascript:;"	 clstag = "homepage|keycount|home2013|12c"><a target="_blank" href="http://caipiao.jd.com/"><s></s>彩票<i></i></a></li>
-<li class="fore4 abtest_youxi" data-iframe="javascript:;" clstag = "homepage|keycount|home2013|12d"><a target="_blank" href="http://game.jd.com/"><s></s>游戏<i></i></a></li>
+<li class="fore1 abtest_huafei" data-iframe="javascript:;" clstag = "homepage|keycount|home2013|12a"><a target="_blank" href="javascript:;"><s></s>话费<i></i></a></li>
+<li class="fore2 abtest_lvxing" data-iframe="javascript:;" clstag = "homepage|keycount|home2013|12b"><a target="_blank" href="javascript:;"><s></s>旅行<i></i></a></li>
+<li class="fore3 abtest_caipiao" data-iframe="javascript:;"	 clstag = "homepage|keycount|home2013|12c"><a target="_blank" href="javascript:;"><s></s>彩票<i></i></a></li>
+<li class="fore4 abtest_youxi" data-iframe="javascript:;" clstag = "homepage|keycount|home2013|12d"><a target="_blank" href="javascript:;"><s></s>游戏<i></i></a></li>
 </ul>
 <ul class="fore2 lh">
 <li class="fore5 abtest_jipiao"	clstag = "homepage|keycount|home2013|12e"><a target="_blank" href="javascript:;"><s></s>机票</a></li>
@@ -299,43 +299,47 @@ pageConfig.DATA_MScroll =[
 </div>
 <div class="m plist">
 <div class="tab-arrow"><b></b></div>
-<div class="sm sm2 fore1 curr"  data-widget="tab-item" data-tag="1622" clstag="homepage|keycount|home2013|18d">
-  <div class="smt">
-    <h3>大家电</h3>
-  </div>
-  <div class="smc" data-widget="tab-content">
-    <div class="loading-style1"><b></b>加载中，请稍候...</div>
-  </div>
+	<div class="sm sm2 fore1 curr" data-widget="tab-item" data-tag="1622" clstag="homepage|keycount|home2013|18d">
+		<div class="smt">
+			<h3>大家电</h3>
+		</div>
+		<div class="smc" data-widget="tab-content">
+			<div class="loading-style1"><b></b>加载中，请稍候...</div>
+		</div>
+	</div>
+	<div class="sm sm2 fore2" data-widget="tab-item" data-tag="1622" clstag="homepage|keycount|home2013|18d">
+		<div class="smt">
+			<h3>大家电 New</h3>
+		</div>
+		<div class="smc" data-widget="tab-content">
+			<div class="loading-style1"><b></b>加载中，请稍候...</div>
+		</div>
+	</div>
+	<div class="sm sm2 fore3" data-widget="tab-item" data-tag="1623" clstag="homepage|keycount|home2013|18e">
+		<div class="smt">
+			<h3>小家电</h3>
+		</div>
+		<div class="smc" data-widget="tab-content">
+			<div class="loading-style1"><b></b>加载中，请稍候...</div>
+		</div>
+	</div>
+	<div class="sm sm2 fore4" data-widget="tab-item" data-tag="1624" clstag="homepage|keycount|home2013|18f">
+		<div class="smt">
+			<h3>手机通讯</h3>
+		</div>
+		<div class="smc" data-widget="tab-content">
+			<div class="loading-style1"><b></b>加载中，请稍候...</div>
+		</div>
+	</div>
+	<div class="sm sm2 fore5" data-widget="tab-item" data-tag="1625" clstag="homepage|keycount|home2013|18g">
+		<div class="smt">
+			<h3>汽车五金</h3>
+		</div>
+		<div class="smc" data-widget="tab-content">
+			<div class="loading-style1"><b></b>加载中，请稍候...</div>
+		</div>
+	</div>
 </div>
-<div class="sm sm2 fore2"  data-widget="tab-item" data-tag="1622" clstag="homepage|keycount|home2013|18d">
-  <div class="smt">
-    <h3>大家电 New</h3>
-  </div>
-  <div class="smc" data-widget="tab-content">
-    <div class="loading-style1"><b></b>加载中，请稍候...</div>
-  </div>
-</div><div class="sm sm2 fore3"  data-widget="tab-item" data-tag="1623" clstag="homepage|keycount|home2013|18e">
-  <div class="smt">
-    <h3>小家电</h3>
-  </div>
-  <div class="smc" data-widget="tab-content">
-    <div class="loading-style1"><b></b>加载中，请稍候...</div>
-  </div>
-</div><div class="sm sm2 fore4"  data-widget="tab-item" data-tag="1624" clstag="homepage|keycount|home2013|18f">
-  <div class="smt">
-    <h3>手机通讯</h3>
-  </div>
-  <div class="smc" data-widget="tab-content">
-    <div class="loading-style1"><b></b>加载中，请稍候...</div>
-  </div>
-</div><div class="sm sm2 fore5"  data-widget="tab-item" data-tag="1625" clstag="homepage|keycount|home2013|18g">
-  <div class="smt">
-    <h3>汽车五金</h3>
-  </div>
-  <div class="smc" data-widget="tab-content">
-    <div class="loading-style1"><b></b>加载中，请稍候...</div>
-  </div>
-</div></div>
 <!-- ad start -->
 <div class="sm sm1 brands" clstag="homepage|keycount|home2013|19a">
 <div class="smt">
@@ -343,15 +347,25 @@ pageConfig.DATA_MScroll =[
 </div>
 <div class="smc">
 	<ul class="lh">
-		<li class="fore1"><a target="_blank" title="" href="javascript:;"><img height="35" width="98" alt="" data-img="2" data-lazyload="http://img10.360buyimg.com/da/g10/M00/0E/0D/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif"></a></li>
-		<li class="fore2"><a target="_blank" title="TCL" href="javascript:;"><img height="35" width="98" alt="TCL" data-img="2" data-lazyload="http://img14.360buyimg.com/da/jfs/t31/292/4886889003/2722/effa53e/537b3138N3205302e.jpg"></a></li>
+		<li class="fore1">
+			<a target="_blank" title="" href="javascript:;">
+				<img height="35" width="98" alt="" data-img="2"
+					 data-lazyload="http://img10.360buyimg.com/da/g10/M00/0E/0D/rBEQWVFQLqgIAAAAAAAFbgvhBqMAAC0MAP_3cIAAAWG414.gif">
+			</a>
+		</li>
+		<li class="fore2">
+			<a target="_blank" title="TCL" href="javascript:;">
+				<img height="35" width="98" alt="TCL" data-img="2"
+					 data-lazyload="http://img14.360buyimg.com/da/jfs/t31/292/4886889003/2722/effa53e/537b3138N3205302e.jpg">
+			</a>
+		</li>
 		<li class="fore3"><a target="_blank" title="" href="javascript:;"><img height="35" width="98" alt="" data-img="2" data-lazyload="http://img10.360buyimg.com/da/jfs/t166/298/186961078/4892/5c38ed68/53829f6eNa98427dc.jpg"></a></li>
 		<li class="fore4"><a target="_blank" title="手机新品馆" href="javascript:;"><img height="35" width="98" alt="手机新品馆" data-img="2" data-lazyload="http://img10.360buyimg.com/da/g13/M06/01/0D/rBEhUlHmCN0IAAAAAAASpGQ8IDYAABK2AP_yHEAABK8207.jpg"></a></li>
 		<li class="fore5"><a target="_blank" title="" href="javascript:;"><img height="35" width="98" alt="" data-img="2" data-lazyload="http://img13.360buyimg.com/da/jfs/t127/70/4777056813/2910/3f9a0b8f/537b316bN35574fff.jpg"></a></li>
 		<li class="fore6"><a target="_blank" title="" href="javascript:;"><img height="35" width="98" alt="" data-img="2" data-lazyload="http://img12.360buyimg.com/da/jfs/t31/321/4838856059/2979/140e8a02/537b3173Ne74bf3cf.jpg"></a></li>
 		<li class="fore7"><a target="_blank" title="九阳" href="javascript:;"><img height="35" width="98" alt="九阳" data-img="2" data-lazyload="http://img14.360buyimg.com/da/jfs/t148/165/47500775/3882/678642c9/537b314aN909ae4cf.jpg"></a></li>
 		<li class="fore8"><a target="_blank" title="" href="javascript:;"><img height="35" width="98" alt="" data-img="2" data-lazyload="http://img11.360buyimg.com/da/jfs/t16/30/4820028970/2355/12a12118/537b3130N7591211b.jpg"></a></li>
-		<li class="fore9"><a target="_blank" title="康佳" href=""javascript:;><img height="35" width="98" alt="康佳" data-img="2" data-lazyload="http://img10.360buyimg.com/da/jfs/t181/331/49355616/2960/f8717425/537b3152Nf0573a0d.jpg"></a></li>
+		<li class="fore9"><a target="_blank" title="康佳" href="javascript:;"><img height="35" width="98" alt="康佳" data-img="2" data-lazyload="http://img10.360buyimg.com/da/jfs/t181/331/49355616/2960/f8717425/537b3152Nf0573a0d.jpg"></a></li>
 		<li class="fore10"><a target="_blank" title="努比亚专卖店" href="javascript:;"><img height="35" width="98" alt="努比亚专卖店" data-img="2" data-lazyload="http://img10.360buyimg.com/da/g16/M00/0A/18/rBEbRlN5zCsIAAAAAAALfFfJRv8AACGGgO__3sAAAuU660.jpg"></a></li>
 	</ul>
 </div>
@@ -373,7 +387,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "3309.00",
 			"a": "1068768",
-			"b": "ThinkPad\u54c1\u724c\u60e0,\u6781\u81f4\u6027\u80fd\u5546\u52a1\u672c\uff01",
+			"b": "",
 			"f": 1
 		},
 		"2": {
@@ -381,7 +395,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "1499.00",
 			"a": "1220450",
-			"b": "\u8d85\u503c\u8054\u60f3windows\u5e73\u677f\uff0c\u529e\u516c\u5a31\u4e50\u4e24\u76f8\u5b9c\uff0cmiix3 \u91cd\u78c5\u6765\u88ad",
+			"b": "",
 			"f": 1
 		},
 		"3": {
@@ -389,7 +403,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "3999.00",
 			"a": "1039193",
-			"b": "\u5168\u667a\u8d24\u540c\u6b3e\uff01\u6027\u80fd\u5f3a\u52b2\uff0c\u8d28\u611f\u51fa\u4f17\uff01",
+			"b": "",
 			"f": 1
 		},
 		"4": {
@@ -397,7 +411,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "5699.00",
 			"a": "1216530",
-			"b": "\u60e0\u666e\u6e38\u620f\u672c\uff0c\u6027\u80fd\u4e0e\u5916\u89c2\u7684\u5b8c\u7f8e\u7ed3\u5408\uff01",
+			"b": "",
 			"f": 1
 		},
 		"5": {
@@ -405,7 +419,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "3399.00",
 			"a": "1206531",
-			"b": "\u3010\u6234\u4f60\u98de\u3011\u5168\u65b0\u5347\u7ea7 \u6027\u4ef7\u6bd4\u8d85\u9ad8 \u8c01\u7528\u8c01\u77e5\u9053\uff01",
+			"b": "",
 			"f": 1
 		},
 		"6": {
@@ -413,7 +427,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "3799.00",
 			"a": "1216669",
-			"b": "\u534e\u7855\u65b0\u6b3e\uff0c\u597d\u6a21\u5177\u3001\u597d\u6027\u80fd\u3001\u5e95\u4ef7\u4e0a\u5e02\uff01",
+			"b": "",
 			"f": 1
 		},
 		"7": {
@@ -421,7 +435,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "3999.00",
 			"a": "1123777",
-			"b": "\u6218\u795eK580D\u91cd\u51fa\u6c5f\u6e56\uff01\u53f2\u4e0a\u6700\u9738\u6c14\u6027\u4ef7\u6bd4~\uff01\u4f60\u7684\u6e38\u620f\u4f60\u7684\u672c\uff01",
+			"b": "",
 			"f": 1
 		},
 		"8": {
@@ -429,7 +443,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "1699.00",
 			"a": "1225738",
-			"b": "\u5c0f\u7c73\u5e73\u677f\uff0c\u5c31\u662f\u8fd9\u4e48\u597d\u7528\uff01",
+			"b": "",
 			"f": 1
 		},
 		"9": {
@@ -437,7 +451,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "4499.00",
 			"a": "1208785",
-			"b": "\u6234\u5c1423\u82f1\u5bf8i3\u5546\u7528\u4e00\u4f53\u673a\u9650\u91cf\u7279\u4ef7",
+			"b": "",
 			"f": 1
 		},
 		"10": {
@@ -445,7 +459,7 @@ pageConfig.DATA_Tabs = {
 			"e": "0",
 			"c": "3999.00",
 			"a": "1191720",
-			"b": "\u5b8f\u7881A10\u6e38\u620f\u4e3b\u673a\uff0c4G\u72ec\u663e\uff0c\u4f7f\u547d\u53ec\u5524\u795e\u9a6c\u7684\u6211\u6700\u7231",
+			"b": "",
 			"f": 1
 		}
 	}, "1617": {

@@ -6531,97 +6531,6 @@ a.floor-sort:hover span {
 	display: block
 }
 
-#home-area {
-	float: left;
-	position: relative;
-	z-index: 12;
-	width: 312px;
-	height: 30px;
-	padding-top: 2px;
-	width: 106px
-}
-
-#home-area.hover .blank {
-	width: 100%;
-	left: 0
-}
-
-#home-area dt {
-	width: 106px;
-	height: 26px;
-	line-height: 24px;
-	border: 1px solid #F7F7F7;
-	position: relative;
-	z-index: 14
-}
-
-#home-area dt>a,#home-area dt>strong {
-	position: relative;
-	top: -2px
-}
-
-#home-area.hover dt {
-	background: #fff;
-	border: 1px solid #DDD;
-	border-bottom: 0;
-	height: 28px
-}
-
-#home-area dt b {
-	position: relative;
-	top: 3px;
-	margin: 0 4px;
-	background: url(../images/17.png)
-		-5px -3px no-repeat;
-	height: 18px;
-	width: 12px;
-	display: inline-block;
-	*zoom: 1
-}
-
-#home-area dd {
-	position: relative;
-	z-index: 13;
-	padding-bottom: 5px;
-	width: 300px
-}
-
-#home-area dd li {
-	width: 50px;
-	padding: 0 0 0 17px;
-	height: 24px;
-	padding-top: 4px
-}
-
-#home-area dd .close {
-	position: absolute;
-	right: -5px;
-	top: -5px;
-	background: url(../images/17.png)
-		-35px 0;
-	width: 19px;
-	height: 19px;
-	overflow: hidden;
-	line-height: 100px;
-	cursor: pointer
-}
-
-#home-area dd li a {
-	padding: 1px 3px;
-	float: left
-}
-
-#home-area dd li a,#home-area dd li a:hover,#home-area dd li a:visited {
-	color: #005ea7;
-	height: 18px;
-	line-height: 18px
-}
-
-#home-area dd li a:hover {
-	background: #005ea7;
-	color: #fff;
-	text-decoration: none
-}
 
 #showcase {
 	overflow: hidden
@@ -6967,79 +6876,12 @@ a.floor-sort:hover span {
 }
 
 #shortcut-2013 li.jd-wx-qrcode {
-	padding-left: 26px;
-	position: relative;
-	*z-index: 7
-}
-
-.jd-wx-qrcode .i-qrcode {
-	float: left;
-	display: inline;
-	width: 12px;
-	height: 12px;
-	margin-left: -18px;
-	margin-top: 9px;
-	background:
-		url(../images/index-jd-wx-qrcode.png)
-		no-repeat
+	display: none;
 }
 
 .hover div.qrcode-show {
-	display: block
-}
-
-.jd-wx-qrcode .qrcode-show a:hover {
-	text-decoration: none
-}
-
-.jd-wx-qrcode .qrcode-show {
 	display: none;
-	width: 116px;
-	height: 129px;
-	position: absolute;
-	left: -15px;
-	top: 35px;
-	z-index: 10;
-	border: 1px solid #ddd;
-	background:
-		url(../images/index-jd-wx-qrcode.png)
-		no-repeat 0 -30px #fff;
-	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .12);
-	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .12);
-	box-shadow: 0 0 10px rgba(0, 0, 0, .12)
 }
-
-.jd-wx-qrcode .qrcode-show .arrow {
-	position: absolute;
-	top: -16px;
-	left: 50%;
-	margin-left: -8px;
-	width: 16px;
-	height: 16px
-}
-
-.jd-wx-qrcode .qrcode-show .arrow i {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 0;
-	height: 0;
-	overflow: hidden;
-	border-width: 8px;
-	border-style: dashed dashed solid
-}
-
-.jd-wx-qrcode .qrcode-show i.layer1 {
-	border-color: transparent transparent #ddd;
-	top: -1px
-}
-
-.jd-wx-qrcode .qrcode-show i.layer2 {
-	border-color: transparent transparent #fff
-}
-
-#shortcut-2013 li.jd-wx-qrcode-hover .qrcode-show {
-	transform: translateY(0);
-	opacity: 1;
-	visibility: visible
+#home-area{
+	display: none;
 }

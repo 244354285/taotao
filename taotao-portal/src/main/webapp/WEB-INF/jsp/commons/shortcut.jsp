@@ -3,7 +3,9 @@
 <div id="shortcut-2013">
 	<div class="w">
 		<ul class="fl lh">
-			<li class="fore1 ld" clstag="homepage|keycount|home2013|01a"><b></b><a href="javascript:addToFavorite()" rel="nofollow">收藏淘淘</a></li>
+			<li class="fore1 ld" clstag="homepage|keycount|home2013|01a"><b></b>
+				<a href="javascript:;" rel="nofollow">收藏淘淘</a>
+			</li>
 		</ul>
 		<ul class="fr lh">
 			<li class="fore1" id="loginbar" clstag="homepage|keycount|home2013|01b">您好！欢迎来到淘淘！

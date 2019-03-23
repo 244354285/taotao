@@ -26,7 +26,7 @@
         <!--search end-->
         <div id="my360buy-2013">
             <dl>
-                <dt class="ld"><s></s><a href="http://sso.taotao.com/user/showLogin"
+                <dt class="ld"><s></s><a href="http://www.taotao.com/user/showLogin"
                                          clstag="homepage|keycount|home2012|04a">我的淘淘</a><b></b></dt>
                 <dd>
                     <div class="loading-style1"><b></b>加载中，请稍候...</div>
@@ -148,19 +148,26 @@
             </div>
             <div id="treasure" clstag="homepage|keycount|home2013|08a"></div>
             <ul id="navitems-2013">
-                <li class="fore1" id="nav-home" clstag="homepage|keycount|home2013|07a"><a href="/">首页</a></li>
-                <li class="fore2" id="nav-fashion" clstag="homepage|keycount|home2013|07b"><a
-                        href="http://fashion.jd.com/">服装城</a></li>
-                <li class="fore3" id="nav-chaoshi" clstag="homepage|keycount|home2013|07c"><a
-                        href="http://channel.jd.com/chaoshi.html">食品</a></li>
-                <li class="fore4" id="nav-tuan" clstag="homepage|keycount|home2013|07d"><a href="http://tuan.jd.com/"
-                                                                                           target="_blank">团购</a></li>
-                <li class="fore5" id="nav-auction" clstag="homepage|keycount|home2013|07e"><a
-                        href="http://auction.jd.com/">夺宝岛</a></li>
-                <li class="fore6" id="nav-shan" clstag="homepage|keycount|home2013|07f"><a href="http://red.jd.com/"
-                                                                                           target="_blank">闪购</a></li>
-                <li class="fore7" id="nav-jinrong" clstag="homepage|keycount|home2013|07g1"><a href="http://jr.jd.com/"
-                                                                                               target="_blank">金融</a>
+                <li class="fore1" id="nav-home" clstag="homepage|keycount|home2013|07a">
+					<a href="/">首页</a>
+				</li>
+                <li class="fore2" id="nav-fashion" clstag="homepage|keycount|home2013|07b">
+					<a href="javascript:;">服装城</a>
+				</li>
+                <li class="fore3" id="nav-chaoshi" clstag="homepage|keycount|home2013|07c">
+					<a href="javascript:;">食品</a>
+				</li>
+                <li class="fore4" id="nav-tuan" clstag="homepage|keycount|home2013|07d">
+					<a href="javascript:;">团购</a>
+				</li>
+                <li class="fore5" id="nav-auction" clstag="homepage|keycount|home2013|07e">
+					<a href="javascript:;">夺宝岛</a>
+				</li>
+                <li class="fore6" id="nav-shan" clstag="homepage|keycount|home2013|07f">
+					<a href="javascript:;" >闪购</a>
+				</li>
+                <li class="fore7" id="nav-jinrong" clstag="homepage|keycount|home2013|07g1">
+					<a href="javascript:;">金融</a>
                 </li>
             </ul>
         </div>
