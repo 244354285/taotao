@@ -34,7 +34,7 @@ public class LoginController {
 
             return result;
         } catch (Exception e) {
-            e.printStackTrace();
+//            e.printStackTrace();
             return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
         }
     }
