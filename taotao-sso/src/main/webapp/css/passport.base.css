@@ -94,7 +94,7 @@ a:hover,a:active{color:#f00;text-decoration:underline;}
 #footer .authentication a { margin:0 5px; }
 /*logo*/
 #logo{padding:10px 0;position:relative;}
-#logo b{position:absolute;background:url(../images/regist-word.png) no-repeat;top:18px;left:180px;width:111px;height:46px;}
+#logo b{position:absolute;background:url(../images/regist-word.png) no-repeat;top:18px;left:280px;width:111px;height:46px;}
 #shortcut .fl span{display:none}
 
 #intelligent-regName {

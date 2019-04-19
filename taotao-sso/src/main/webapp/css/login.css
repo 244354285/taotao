@@ -191,7 +191,7 @@ a:hover,a:active{color:#f00;text-decoration:underline;}
 #footer .ilinks a{margin:0 5px;}
 /*logo*/
 #logo{padding:10px 0;float:none;margin:0;position:relative;}
-#logo b{position:absolute;background:url(../images/login-all-bg.png) 0 -131px no-repeat;width:111px;height:46px;top:18px;left:180px; }
+#logo b{position:absolute;background:url(../images/login-all-bg.png) 0 -131px no-repeat;width:111px;height:46px;top:18px;left:280px; }
 /*---------------regist.entry2013---------------------*/
 body{background:#f2f2f2;}
 .w1{width:890px;margin:0 auto;}
